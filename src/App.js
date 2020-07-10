@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Dice roller</h1>
         <div style={{ display: "flex", margin: 30 }}>
           <img src={firstDieImage} className="dice" alt="First" />
           <img src={secondDieImage} className="dice" alt="Second" />
